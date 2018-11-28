@@ -16,5 +16,15 @@ namespace InheritanceExercise2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new MyBaseClass("a string");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new MySubclass("another string", 12345);
+        }
     }
 }
